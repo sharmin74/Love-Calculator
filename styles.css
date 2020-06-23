@@ -1,0 +1,75 @@
+html {
+	background-image: url("love.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Sriracha', cursive;
+}
+
+#mainContent{
+	filter: blur(0px);
+	background-color: black;
+	width: 800px;
+	height: 500px;
+	margin: 10rem auto;
+	opacity: 0.75;
+	padding: 4px;
+} 
+
+#mainContent-sub {
+	color: red;
+	text-align: center;
+}
+
+.input{
+	display: inline-block;
+	margin: 3rem 0.5rem;
+}
+
+.btn {
+	background-color: red;
+}
+
+.namesAfterCalculation{
+	margin-top: 4rem;
+}
+
+.display {
+	display: inline-block;
+}
+
+@media only screen and (max-width: 780px) {
+	body{
+		overflow-x: hidden;
+		background-image: cover;
+	}
+	#mainContent{
+		filter: blur(0px);
+		background-color: black;
+		width: 280px;
+		height: 700px;
+		margin: auto auto;
+		opacity: 0.75;
+		padding: 7px;
+	} 
+	.input{
+		display: block;
+		margin: 0rem 0.5rem;
+	}
+	.namesAfterCalculation{
+		margin-top: 0rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
